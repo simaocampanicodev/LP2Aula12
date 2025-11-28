@@ -351,6 +351,7 @@ GameObject:
   - component: {fileID: 1072088819}
   - component: {fileID: 1072088818}
   - component: {fileID: 1072088817}
+  - component: {fileID: 1072088820}
   m_Layer: 0
   m_Name: MVC
   m_TagString: Untagged
@@ -382,7 +383,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fa1edc03d8664b4895bd5dcb36b13a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  circle: {fileID: 4661926912823271555, guid: 1260a901a2dab65459838975bba1b5a6, type: 3}
 --- !u!4 &1072088819
 Transform:
   m_ObjectHideFlags: 0
@@ -398,6 +398,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1072088820
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1072088816}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 987a49a7ec15fb0469b8234b71ce0641, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  circle: {fileID: 4661926912823271555, guid: 1260a901a2dab65459838975bba1b5a6, type: 3}
+  initPoolSize: 100
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
